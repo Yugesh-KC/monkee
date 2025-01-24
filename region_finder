@@ -1,0 +1,10 @@
+#use this to find the coordinates of the mouse pointer
+
+import pyautogui
+import keyboard
+
+# Run the script and move your mouse over the points to know its coordinates (alt+tab might help)
+while True:
+    if keyboard.is_pressed('Esc'):
+        break
+    print(pyautogui.position())
